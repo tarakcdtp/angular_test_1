@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test';
+  colors = ['red','blue', 'green'];
+
+  gotMessage(value: any) {
+    console.log(value);
+  }
 }
